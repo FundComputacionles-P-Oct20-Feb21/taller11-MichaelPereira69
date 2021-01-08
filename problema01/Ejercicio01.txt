@@ -1,0 +1,64 @@
+Generar una solución que implemente 3 procedimientos. 
+Que permitan calcular el área de un cuadrado, área de un triángulo y 
+área de un rectángulo. Cada procedimiento debe solicitar los datos
+necesarios y presentar o imprimir el valor correspondiente.
+Se debe invocar a los procedimientos desde un método principal; 
+Si el usuario ingresa 1 se llama al procedimiento obtenerAreaCuadrado; 
+2 se llama al procedimiento obtenerAreaTriangulo; 
+3 se llama al procedimiento obtenerAreaCuadrado.
+El área del cuadrado es igual a lado x lado x lado x lado
+El área del triángulo es igual a (base x altura)/2
+El área del rectángulo es igual a base x altura
+
+
+
+1.Inicio
+2.    funcion principal()
+3.      opcion, i[0-n]
+4.      Escribir "Ingrese el numero:"
+5.      Escribir "Ingrese el numero:"
+6.      Si opcion == 1 Entonces
+7.            areaCuadrado()
+8.        Si-no
+9.           Si opcion == 2 Entonces
+10.             areaTriangulo()
+11.            Sino
+12.              Si opcion == 3 Entonces
+13.             areaRectangulo()
+14.               Sino 
+15.                 Escribir "No esta entre las opciones a escoger"
+16.                Fin si
+17.            Fin si
+18.      Fin si
+19.  fin funcion principal
+20.  funcion areaCuadrado() 
+21.    lado, d[0-n]
+22.    area, d[0-n]
+23.    Escribir "Cual es el lado del cuadrado"
+24.    Leer lado
+25.    area <-- lado * lado 
+26.    Escribir "El area del cuadrado es:" +area
+27.  fin funcion areaCuadrado
+28.  funcion areaTriangulo()
+29.    altura, d[0-n]
+30.    area, d[0-n]
+31.    base, d[0-n]
+32.    Escribir "Cual es la base del triangulo"
+33.    Leer base
+34.    Escribir "Cual es la altura del triangulo"
+35.    Leer altura
+36.    area <-- (base x altura)/2
+37.  Escribir "El area del triangulo es:" +area
+38.    fin funcion areaTriangulo 
+39.  funcion areaRectangulo ()
+40.    altura, d[0-n]
+41.    area, d[0-n]
+42.    base, d[0-n]
+43.    Escribir "Cual es la base del Rectangulo"
+44.    Leer base
+45.    Escribir "Cual es la altura del Rectangulo"
+46.    Leer altura
+47.   area <-- base x altura
+48.    Escribir "El area del Rectangulo es:" +area
+49.  fin funcion areaRectangulo
+50. Fin
